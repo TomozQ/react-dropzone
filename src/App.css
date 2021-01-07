@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+.dropzone{
+  margin: auto;
+  width: 90%;
+  height: 300px;
+  background-color: #fcfcfc;
+  box-shadow: 1px 1px 2px 1px #ccc;
+}
+.dropzone:focus{
+  outline: none;
+}
+ul.imageSpot{
+  display: flex;
+  justify-content: space-around;
+}
+p{
+  color: #282c34;
+}
+.imageSpot{
+  display: flex;
+  justify-content: space-around;
+}
+li.imageList{
+  width: 150px;
+  height: 150px;
+  list-style: none;
+}
+img{
+  width: 130px;
+  height: 180px;
+  border: 1px solid #000;
+  box-shadow: 2px 2px 2px 1px #525252;
+}
